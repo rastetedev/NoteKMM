@@ -55,6 +55,8 @@ dependencies {
 
     implementation(libs.kotlinx.datetime)
 
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
     kapt(libs.androidx.hilt.compiler)
